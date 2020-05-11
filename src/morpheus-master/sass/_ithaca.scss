@@ -4,35 +4,21 @@ $namespace : "ithaca" !default;
 
 /* Color palette */
 
+$white: #FFFFFF;
+
 $primary-color: #003B71 !default;
-$alt-colour: 				 #d36f00 !default;
+$alt-colour: 				 #FFBB00 !default;
 $primary-color-highContrast: darken( $primary-color, 4% ) !default;	// for use of primary on non-white light backgrounds, such as greys
 $primary-color-shadow:			 adjust-hue( $primary-color, 5 ) !default;	// To give primary a darker shadow
-$background-color: 			 #FFFFFF !default;
+$background-color: 			 $white !default;
 $background-color-secondary: #000036 !default;
 $text-color:				 #212121 !default;
 $text-color-disabled:		 #767676 !default;
 $secondary-color: #42AAE0 !default;
-$body-background-color: #fff !default;
+$body-background-color: $white !default;
 
 $portal-background-color: $background-color !default;
 $portal-mask-background:  rgba(0,0,0,0.5) !default;
-
-//Built to be used for padding
-//https://material-components.github.io/material-components-web-catalog/#/component/menu
-$material-menu-padding: calc( #{$standard-spacing} / 2) 0 !default;
-$material-menu-item-padding: calc(#{$standard-spacing} / 2) $standard-spacing !default;
-
-//Built to be used for box-shadow
-//https://material-components.github.io/material-components-web-catalog/#/component/elevation
-$material-elevation-1dp: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12) !default;
-$material-elevation-2dp: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12) !default;
-$material-elevation-3dp: 0 3px 3px -2px rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 1px 8px 0 rgba(0,0,0,.12) !default;
-$material-elevation-4dp: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12) !default;
-$material-elevation-5dp: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12) !default;
-$material-elevation-6dp: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12) !default;
-$material-elevation-7dp: 0 4px 5px -2px rgba(0,0,0,.2), 0 7px 10px 1px rgba(0,0,0,.14), 0 2px 16px 1px rgba(0,0,0,.12) !default;
-$material-elevation-8dp: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12) !default;
 
 /* Tool tabs */
 $tool-background-color:		 $background-color !default;
@@ -53,7 +39,7 @@ $tool-tab-hover-background-color:                         #ECECEC !default;
 $tool-tab-hover-highlight-color:                          #7F7F7F !default;
 $tool-tab-active-text-color:                              $primary-color !default;
 $tool-tab-active-text-size:                               12px !default;
-$tool-tab-active-background-color:                        #FFFFFF !default;
+$tool-tab-active-background-color:                        $white !default;
 $tool-tab-active-highlight-color:                         $primary-color !default;
 
 $tool-nav-link-color: #666 !default;
@@ -71,7 +57,7 @@ $top-header-profile-border-color-top: $secondary-color !default;
 $top-header-profile-border-color-right: $secondary-color !default;
 $top-header-profile-border-color-bottom: $alt-colour !default;
 $top-header-profile-border-color-left: $background-color-secondary !default;
-$top-header-profile-border-color-inner: #fff !default;
+$top-header-profile-border-color-inner: $white !default;
 
 $sites-nav-background: $body-background-color !default;
 
@@ -117,7 +103,7 @@ $button-disabled-shadow:        none !default;
 $button-disabled-font-weight:   300 !default;
 
 // Primary action button design:
-$button-primary-text-color:                 #fff !default;
+$button-primary-text-color:                 $white !default;
 $button-primary-background:                 $primary-color !default;
 $button-primary-border-color:               $primary-color !default;
 $button-primary-text-transform: none !default;
@@ -189,7 +175,7 @@ $header-gradient-d: $header-gradient-a !default;
 
 /* topNav Main Menu */
 $header-size: 50px !default;
-$topNav-text-color:                         #fff !default; 		// used for links and text in the topNav
+$topNav-text-color:                         $white !default; 		// used for links and text in the topNav
 $topNav-alt-color:                     		#9c9c9c !default;	// used for topNav spacers
 
 /* Favorites */
@@ -242,7 +228,7 @@ $sites-nav-submenu-top: $standard-spacing !default;
 $sites-nav-submenu-padding: $material-menu-padding !default;
 $sites-nav-submenu-shadow: $material-elevation-8dp !default;
 /* Favorites - tool selected submenu */
-$sites-nav-selected-submenu-border-color: #fff !default;
+$sites-nav-selected-submenu-border-color: $white !default;
 $sites-nav-selected-submenu-border: none !default;
 $sites-nav-selected-submenu-topleft-border-color: $sites-nav-menu-item-selected-hover-background !default;
 /* Favorites - tool submenu items */
@@ -261,7 +247,7 @@ $sites-nav-submenu-item-hover-icon-color:   #424242 !default;
 $sites-nav-submenu-item-hover-left-border-color: #7F7F7F !default;
 
 /* All Sites menu */
-$all-sites-background-color:                              #FFFFFF !default;
+$all-sites-background-color:                              $white !default;
 $all-sites-drop-shadow:                                   5px 0 50px 0px rgba(0,0,0,0.5) !default;
 $all-sites-tab-text-color:                                $tool-menu-color !default;
 $all-sites-tab-background-color:                          $tool-tab-background-color !default;
@@ -288,7 +274,7 @@ $all-sites-button-star-empty-color:                       #CECECE !default;
 $all-sites-button-selected-text-color:                    #191919 !default;
 $all-sites-button-selected-text-size:                     13px !default;
 $all-sites-button-selected-text-weight:                   medium !default;
-$all-sites-button-selected-background-color:              #FFFFFF !default;
+$all-sites-button-selected-background-color:              $white !default;
 $all-sites-button-selected-border-color:                  #7F7F7F !default;
 $all-sites-button-selected-border-radius:                 3px !default;
 $all-sites-button-selected-dropdown-color:                #4C4C4C !default;
@@ -305,7 +291,7 @@ $all-sites-button-hover-star-empty-color:                 #999999 !default;
 $all-sites-button-drag-icon-color:                        #AAAAAA !default;
 $all-sites-button-drag-icon-hover-color:                  #999999 !default;
 $all-sites-tool-menu-divider-color:                       #E5E5E5 !default;
-$all-sites-tool-menu-background-color:                    #FFFFFF !default;
+$all-sites-tool-menu-background-color:                    $white !default;
 $all-sites-tool-menu-text-color:                          #4C4C4C !default;
 $all-sites-tool-menu-text-size:                           12px !default;
 $all-sites-tool-menu-text-weight:                         normal !default;
@@ -334,11 +320,11 @@ $tool-menu-collapseButton-height: $tool-menu-width-collapsed !default;
   $tool-menu-collapseButton-height: $tool-menu-width-collapsed;
 }
 
-$tool-menu-item-separator-color: #fff !default;
+$tool-menu-item-separator-color: $white !default;
 $tool-menu-item-text-color:                                #333333 !default;
 $tool-menu-item-icon-color:                                #666666 !default;
 $tool-menu-item-text-weight:                               normal !default;
-$tool-menu-item-background-color: #fff !default;
+$tool-menu-item-background-color: $white !default;
 $tool-menu-item-border-left: none !default;
 $tool-menu-item-border-radius: 0 calc(#{$button-radius-pill} * 1.5) calc(#{$button-radius-pill} * 1.5) 0 !default;
 $tool-menu-item-padding: calc( #{$standard-spacing} / 2) 0 calc( #{$standard-spacing} / 2) $standard-spacing !default;
@@ -390,7 +376,7 @@ $tool-menu-collapse-min-hover-shadow:                      $tool-menu-collapse-s
 $tool-sub-menu-border-color: darken( $tool-menu-background-color, 10% ) !default;
 $tool-sub-menu-background-color: darken( $tool-menu-background-color, 10% ) !default;
 $tool-sub-menu-hover-background-color: $primary-color !default;
-$tool-sub-menu-hover-color: #FFF !default;
+$tool-sub-menu-hover-color: $white !default;
 $tool-sub-menu-current-color: $primary-color !default;
 $tool-sub-menu-current-background-color: $background-color !default;
 $tool-sub-menu-current-hover-color: $tool-menu-color !default;
@@ -418,7 +404,7 @@ $lessons-item-border-top: 1px solid $sites-nav-menu-item-background !default;
 $lessons-item-border-right: none !default;
 $lessons-item-border-bottom: none !default;
 $lessons-item-border-left: none !default;
-$lessons-item-hover-background: #fff !default;
+$lessons-item-hover-background: $white !default;
 $lessons-item-hover-shadow: $material-elevation-4dp !default;
 $lessons-item-edit-display: none !default;
 $lessons-item-edit-hover-display: inline-block !default;
@@ -474,7 +460,7 @@ $overview-portlet-border-radius: $button-radius !default;
 $overview-portlet-shadow: $material-elevation-1dp !default;
 $overview-portlet-title-background-color: $tool-tab-background-color !default;
 
-$instruction-background-color: #fff !default;
+$instruction-background-color: $white !default;
 
 /* focus styles for all control elements (e.g. buttons, form controls, links, etc) */
 $focus-outline-width: 3px !default;
