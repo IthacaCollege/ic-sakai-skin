@@ -145,15 +145,14 @@ $swapped-view-primary: #EF5350 !default;
 $become-user-primary: #34D5A4 !default;
 
 /* This is the gradient in the header of the page */
-$header-gradient-a: #fafafa !default;
+$header-gradient-a: #F3F6F7 !default;
 $header-gradient-b: $header-gradient-a !default;
 $header-gradient-c: $header-gradient-a !default;
 $header-gradient-d: $header-gradient-a !default;
 
 /* topNav Main Menu */
-$header-size: 50px !default;
 $topNav-text-color:                         $white !default; 		// used for links and text in the topNav
-$topNav-alt-color:                     		#9c9c9c !default;	// used for topNav spacers
+$topNav-alt-color:                     		#9C9C9C !default;	// used for topNav spacers
 
 /* Favorites - item */
 $sites-nav-menu-item-background: hsla(0, 0%, 92%, 1) !default;
@@ -204,7 +203,7 @@ $sites-nav-selected-submenu-topleft-border-color: $sites-nav-menu-item-selected-
 /* Favorites - tool submenu items */
 $sites-nav-submenu-item-text-size:          13px !default;
 $sites-nav-submenu-item-background:          $sites-nav-menu-item-hover-background !default;
-$sites-nav-submenu-item-color:              #4C4C4C !default;
+$sites-nav-submenu-item-color:              #162C41 !default;
 $sites-nav-submenu-item-icon-color:         #5F7991 !default;
 $sites-nav-submenu-item-divider-color:      #F3F6F7 !default;
 /* Favorites - tool submenu items hovered */
@@ -224,30 +223,30 @@ $all-sites-tab-hover-highlight:                           $tool-tab-hover-highli
 $all-sites-tab-active-text-color:                         $tool-tab-active-text-color !default;
 $all-sites-tab-active-background-color:                   $tool-tab-active-background-color !default;
 $all-sites-tab-active-highlight-color:                    $tool-tab-active-highlight-color !default;
-$all-sites-title-text-color:                              #4C4C4C !default;
-$all-sites-button-text-color:                             #4C4C4C !default;
-$all-sites-button-background-color:                       #FAFAFA !default;
-$all-sites-button-border-color:                           #F3F6F7 !default;
+$all-sites-title-text-color:                              #162C41 !default;
+$all-sites-button-text-color:                             #162C41 !default;
+$all-sites-button-background-color:                       #F3F6F7 !default;
+$all-sites-button-border-color:                           #EEEEEE !default;
 $all-sites-button-dropdown-color:                         #5F7991 !default;
-$all-sites-button-star-full-color:                        #F49D09 !default;
-$all-sites-button-star-empty-color:                       #CECECE !default;
+$all-sites-button-star-full-color:                        #FFBB00 !default;
+$all-sites-button-star-empty-color:                       #D9D7D2 !default;
 $all-sites-button-selected-text-color:                    #213138 !default;
 $all-sites-button-selected-background-color:              $white !default;
 $all-sites-button-selected-border-color:                  #738BA3 !default;
-$all-sites-button-selected-dropdown-color:                #4C4C4C !default;
-$all-sites-button-selected-star-full-color:               #F49D09 !default;
-$all-sites-button-selected-star-empty-color:              #CECECE !default;
+$all-sites-button-selected-dropdown-color:                #162C41 !default;
+$all-sites-button-selected-star-full-color:               #FFC21A !default;
+$all-sites-button-selected-star-empty-color:              #D9D7D2 !default;
 $all-sites-button-hover-text-color:                       #213138 !default;
 $all-sites-button-hover-background-color:                 #F3F6F7 !default;
 $all-sites-button-hover-border-color:                     #738BA3 !default;
-$all-sites-button-hover-dropdown-color:                   #4C4C4C !default;
+$all-sites-button-hover-dropdown-color:                   #162C41 !default;
 $all-sites-button-hover-star-full-color:                  #EA9609 !default;
-$all-sites-button-hover-star-empty-color:                 #999999 !default;
-$all-sites-button-drag-icon-color:                        #AAAAAA !default;
-$all-sites-button-drag-icon-hover-color:                  #999999 !default;
+$all-sites-button-hover-star-empty-color:                 #9C9C9C !default;
+$all-sites-button-drag-icon-color:                        #EEEEEE !default;
+$all-sites-button-drag-icon-hover-color:                  #9C9C9C !default;
 $all-sites-tool-menu-divider-color:                       #F3F6F7 !default;
 $all-sites-tool-menu-background-color:                    $white !default;
-$all-sites-tool-menu-text-color:                          #4C4C4C !default;
+$all-sites-tool-menu-text-color:                          #162C41 !default;
 $all-sites-tool-menu-icon-color:                          #5F7991 !default;
 $all-sites-tool-menu-left-border:                         4px solid transparent !default;
 $all-sites-tool-menu-hover-background-color:              #F3F6F7 !default;
@@ -255,7 +254,7 @@ $all-sites-tool-menu-hover-text-color:                    #213138 !default;
 $all-sites-tool-menu-hover-icon-color:                    #3A5A79 !default;
 $all-sites-tool-menu-hover-left-border:                   4px solid #738BA3 !default;
 $all-sites-close-action-color:                            #5F7991 !default;
-$all-sites-close-action-hover-color:                      #4C4C4C !default;
+$all-sites-close-action-hover-color:                      #162C41 !default;
 
 /* Tool Menu */
 
