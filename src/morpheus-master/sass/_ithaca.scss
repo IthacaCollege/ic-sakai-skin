@@ -68,19 +68,19 @@ $button-border-color: $button-text-color !default;
 
 // hover and focus states:
 $button-hover-text-color: $button-text-color !default;
-$button-hover-background: #F7F9FA !default;
+$button-hover-background: #F3F6F7 !default;
 $button-hover-border-color: $button-hover-text-color !default;
 
 // active state:
 $button-active-text-color:$button-text-color !default;
-$button-active-background: #E3EBF0 !default;
+$button-active-background: #F3F6F7 !default;
 $button-active-border-color:    $button-hover-border-color !default;
 $button-active-shadow-color: rgba(0,0,0,0) !default;
 
 // disabled state:
-$button-disabled-text-color:    #717171 !default;
-$button-disabled-background:    #f6f6f6 !default;
-$button-disabled-border-color:  #dbdbdb !default;
+$button-disabled-text-color:    #9C9C9C !default;
+$button-disabled-background:    #F3F6F7 !default;
+$button-disabled-border-color:  #D9D7D2 !default;
 
 // Primary action button design:
 $button-primary-text-color:                 $white !default;
@@ -89,12 +89,12 @@ $button-primary-border-color:               $primary-color !default;
 
 // hover and focus states for primary action button:
 $button-primary-hover-text-color:           $button-primary-text-color !default;
-$button-primary-hover-background:           #266688 !default;
-$button-primary-hover-border-color:         #266688 !default;
+$button-primary-hover-background:           #266DEA !default;
+$button-primary-hover-border-color:         #266DEA !default;
 
 // active state for primary action button:
 $button-primary-active-text-color:          $button-primary-text-color !default;
-$button-primary-active-background:          #5a93ab !default;
+$button-primary-active-background:          #51ACFF !default;
 $button-primary-active-border-color:        $button-primary-active-background !default;
 $button-primary-active-shadow-color:        $button-active-shadow-color !default;
 
