@@ -11,9 +11,9 @@ $alt-colour: 				 #FFBB00 !default;
 $primary-color-highContrast: darken( $primary-color, 4% ) !default;	// for use of primary on non-white light backgrounds, such as greys
 $primary-color-shadow:			 adjust-hue( $primary-color, 5 ) !default;	// To give primary a darker shadow
 $background-color: 			 $white !default;
-$background-color-secondary: #000036 !default;
-$text-color:				 #212121 !default;
-$text-color-disabled:		 #767676 !default;
+$background-color-secondary: #162C41 !default;
+$text-color:				 #000 !default;
+$text-color-disabled:		 #9C9C9C !default;
 $secondary-color: #42AAE0 !default;
 $body-background-color: $white !default;
 
