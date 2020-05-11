@@ -468,12 +468,3 @@ $focus-outline-style: solid !default;
 $focus-outline-color: #5b9dd9 !default;
 $sakai-focus-outline: $focus-outline-width $focus-outline-style $focus-outline-color !default;
 $focus-outline-offset: 2px !default;
-
-$font-family: "Open Sans",sans-serif !default;
-$header-font-family: $font-family !default;
-$header-font-weight: 700 !default;										// 400 or 700 as you wish
-
-$skin-name : "morpheus-default" !default; // This is used for bootstrap font behaviour.
-
-$sites-nav-selected-submenu-border-color: transparent !default;
-$sites-nav-submenu-top: -#{$standard-spacing} !default; //fallback to calc( #{$default-font-size} + #{$sites-nav-menu-item-border-thickness})
