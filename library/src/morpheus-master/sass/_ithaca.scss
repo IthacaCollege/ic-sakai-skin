@@ -9,6 +9,11 @@ $material-elevation-1dp: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.
 $focus-outline-width: 3px;
 $focus-outline-style: solid;
 
+/* Logo styles */
+$logo: "https://www.ithaca.edu/themes/custom/ithaca/components/images/ic-primary-logo-white.svg";
+$logo-height: 72px * 0.5;
+$logo-width: 432px * 0.5;
+
 /* Color palette */
 
 $white: #FFFFFF;
@@ -374,3 +379,7 @@ $instruction-background-color: $white !default;
 $focus-outline-color: #51ACFF !default;
 $sakai-focus-outline: $focus-outline-width $focus-outline-style $focus-outline-color !default;
 $focus-outline-offset: 2px !default;
+
+.Mrphs-mainHeader .Mrphs-headerLogo {
+  background-color: $primary-color;
+}
