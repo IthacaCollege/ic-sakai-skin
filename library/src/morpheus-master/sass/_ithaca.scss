@@ -383,3 +383,19 @@ $focus-outline-offset: 2px !default;
 .Mrphs-mainHeader .Mrphs-headerLogo {
   background-color: $primary-color;
 }
+
+.tablesorter-headerRow {
+  background-color: #1169ba;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
+  border-color: $white;
+}
+
+thead > tr > th > div > a[href] {
+  color: $white;
+}
+
+thead > tr > th > div > a[href]:hover {
+  color: #C3D1D7;
+}
