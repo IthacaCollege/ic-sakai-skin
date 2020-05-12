@@ -283,7 +283,7 @@ function setMainFrameHeightWithMax(id, maxHeight)
 		clearTimeout(MainFrameHeightTimeOut);
 		MainFrameHeightTimeOut = false;
 	}
-	MainFrameHeightTimeOut = setTimeout( function() { setMainFrameHeightNow(id, maxHeight); }, 1000);
+	MainFrameHeightTimeOut = setTimeout("setMainFrameHeightNow('"+id+"',"+maxHeight+")", 1000);
 }
 
 function setMainFrameHeight(id)
@@ -801,7 +801,7 @@ function includeWebjarLibrary(library) {
 		libraryVersion = "1.10.20";
 		document.write('\x3Cscript src="' + webjars + 'datatables/' + libraryVersion + '/js/jquery.dataTables.min.js' + ver + '">' + '\x3C/script>');
 	} else if (library == 'ckeditor') {
-		libraryVersion = "4.14.0";
+		libraryVersion = "4.13.1";
 		document.write('\x3Cscript src="' + webjars + 'ckeditor/' + libraryVersion + '/full/ckeditor.js' + ver + '">' + '\x3C/script>');
 	} else if (library == 'awesomplete') {
 		libraryVersion = "1.1.5";
@@ -831,9 +831,7 @@ function includeWebjarLibrary(library) {
 	} else if (library === "flatpickr") {
 		libraryVersion = "4.6.3";
 		document.write('\x3Cscript src="' + webjars + 'flatpickr/' + libraryVersion + '/dist/flatpickr.min.js' + ver + '">\x3C/script>');
-		document.write('\x3Cscript src="' + webjars + 'flatpickr/' + libraryVersion + '/dist/plugins/confirmDate/confirmDate.js' + ver + '">\x3C/script>');
 		document.write('\x3Clink rel="stylesheet" href="' + webjars + 'flatpickr/' + libraryVersion + '/dist/flatpickr.min.css' + ver + '"/>');
-		document.write('\x3Clink rel="stylesheet" href="' + webjars + 'flatpickr/' + libraryVersion + '/dist/plugins/confirmDate/confirmDate.css' + ver + '"/>');
 		let lang = portal.locale.split("-")[0];
 		if (lang !== "en") {
 			document.write('\x3Cscript src="' + webjars + 'flatpickr/' + libraryVersion + '/dist/l10n/' + lang + '.js' + ver + '">\x3C/script>');
