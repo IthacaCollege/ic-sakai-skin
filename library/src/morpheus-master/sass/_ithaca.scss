@@ -399,3 +399,15 @@ thead > tr > th > div > a[href] {
 thead > tr > th > div > a[href]:hover {
   color: #C3D1D7;
 }
+
+tr {
+  /* Background-color of the odd rows */
+  &:nth-child(odd) {
+    background-color: #F3F6F7;
+  }
+
+  /* Background-color of the even rows */
+  &:nth-child(even) {
+    background-color: $white;
+  }
+}
