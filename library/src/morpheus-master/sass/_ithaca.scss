@@ -290,13 +290,13 @@ $tool-menu-item-hidden-hover-text-color:                   $tool-menu-item-hover
 $tool-menu-item-hidden-hover-icon-color:                   $tool-menu-item-hover-icon-color !default;
 $tool-menu-item-hidden-hover-background-color:             $tool-menu-item-hover-background-color !default;
 $tool-menu-item-hidden-hover-border-left:                  $tool-menu-item-hover-border-left !default;
-$tool-menu-item-selected-text-color: hsl(201, 71%, 20%) !default;
-$tool-menu-item-selected-icon-color: hsl(201, 71%, 20%) !default;
-$tool-menu-item-selected-background-color: hsla(200, 31%, 84%,1) !default;
+$tool-menu-item-selected-text-color: $primary-color !default;
+$tool-menu-item-selected-icon-color: $primary-color !default;
+$tool-menu-item-selected-background-color: $white !default;
 $tool-menu-item-selected-border-left: $tool-menu-item-border-left !default;
-$tool-menu-item-selected-hover-text-color: hsl(201, 71%, 20%) !default;
-$tool-menu-item-selected-hover-icon-color: hsl(201, 71%, 20%) !default;
-$tool-menu-item-selected-hover-background-color: hsla(200, 31%, 76%,1) !default;
+$tool-menu-item-selected-hover-text-color: $primary-color !default;
+$tool-menu-item-selected-hover-icon-color: $primary-color !default;
+$tool-menu-item-selected-hover-background-color: $white !default;
 $tool-menu-item-selected-hover-border-left: $tool-menu-item-border-left !default;
 
 $tool-menu-collapse-text-color:                            $tool-menu-item-text-color !default;
@@ -340,7 +340,7 @@ $tool-lessons-subpage-menu-selected-parent-background-color: $tool-menu-item-bac
 $tool-lessons-subpage-menu-expanded-background-color: $tool-menu-item-background-color !default;
 
 /* Lessons tool */
-$lessons-item-border-top: 1px solid $sites-nav-menu-item-background !default;
+$lessons-column-border: 1px solid $sites-nav-menu-item-background !default;
 $lessons-item-hover-background: $white !default;
 
 /* Logo location */
@@ -364,7 +364,7 @@ $siteDelete-border: 1px solid $info-color !default;
 $footer-background-color: $body-background-color !default;
 $footer-border-color: $tool-border-color;
 $footer-color: $text-color;
-$footer-link-separator: #ccc;
+$footer-link-separator: #EEEEEE;
 
 $divider-shadow: 0 1px 5px rgba(0,0,0,.3) !default;
 $divider-shadow-fixed: 0 1px 0 $tool-border-color !default;
@@ -373,6 +373,7 @@ $overview-portlet-border-radius: $button-radius !default;
 $overview-portlet-shadow: $material-elevation-1dp !default;
 $overview-portlet-title-background-color: $tool-tab-background-color !default;
 
+$instruction-color: #9C9C9C !default;
 $instruction-background-color: $white !default;
 
 /* focus styles for all control elements (e.g. buttons, form controls, links, etc) */
