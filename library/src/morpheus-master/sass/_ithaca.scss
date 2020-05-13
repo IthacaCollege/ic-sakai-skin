@@ -412,3 +412,9 @@ tr {
     background-color: $white !important;
   }
 }
+
+.Mrphs-sitesNav__menuitem .is-selected > a.link-container {
+  color: $primary-color !important;
+  background-color: rgba(255, 187, 0, 0.2);
+  border: 1px solid rgba(255, 187, 0, 0.2);
+}
