@@ -404,7 +404,7 @@ thead > tr > th > div > a[href]:hover {
 tr {
   /* Background-color of the odd rows */
   &:nth-child(odd) {
-    background-color: #F3F6F7 !important;
+    background-color: #F3F6F7;
   }
 
   /* Background-color of the even rows */
