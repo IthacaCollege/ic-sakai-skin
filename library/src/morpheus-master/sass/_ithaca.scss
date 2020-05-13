@@ -187,8 +187,8 @@ $sites-nav-menu-item-hover-border-bottom:   $sites-nav-menu-item-hover-border-to
 $sites-nav-menu-item-hover-border-left:     $sites-nav-menu-item-hover-border-top !default;
 
 /* Favorites - item selected */
-$sites-nav-menu-item-selected-background: hsla(200, 31%, 84%,1) !default;
-$sites-nav-menu-item-selected-color: hsl(201, 71%, 20%) !default;
+$sites-nav-menu-item-selected-background: $primary-color !default;
+$sites-nav-menu-item-selected-color: $white !default;
 $sites-nav-menu-item-selected-border-color: $sites-nav-menu-item-selected-background !default;
 $sites-nav-menu-item-selected-font-weight:  600 !default
 $sites-nav-menu-item-selected-border-top:   $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-selected-border-color !default;
@@ -197,12 +197,12 @@ $sites-nav-menu-item-selected-border-bottom:$sites-nav-menu-item-selected-border
 $sites-nav-menu-item-selected-border-left:  $sites-nav-menu-item-selected-border-top !default;
 
 /* Favorites - item selected and hovered */
-$sites-nav-menu-item-selected-hover-background:   hsla(200, 31%, 76%,1) !default;
-$sites-nav-menu-item-selected-hover-color: hsl(201, 71%, 20%) !default;
+$sites-nav-menu-item-selected-hover-background:   lighten($sites-nav-menu-item-selected-background, 5%) !default;
+$sites-nav-menu-item-selected-hover-color: $white !default;
 $sites-nav-menu-item-selected-hover-border-color: $sites-nav-menu-item-selected-hover-background !default;
 $sites-nav-menu-item-selected-hover-border-top:   $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-selected-hover-border-color !default;
 $sites-nav-menu-item-selected-hover-border-right: $sites-nav-menu-item-selected-hover-border-top !default;
-$sites-nav-menu-item-selected-hover-border-bottom:$sites-nav-menu-item-selected-hover-border-top !default;
+$sites-nav-menu-item-selected-hover-border-bottom: $sites-nav-menu-item-selected-hover-border-top !default;
 $sites-nav-menu-item-selected-hover-border-left:  $sites-nav-menu-item-selected-hover-border-top !default;
 /* Favorites - tool submenu */
 $sites-nav-submenu-background:              $sites-nav-menu-item-hover-background !default;

@@ -159,78 +159,78 @@ $button-primary-active-shadow:              inset 0 0 $standard-spacing $button-
 
 /* end of General button design */
 
-$info-color:                $primary-color  !default;
-$info-background-color:     lighten($primary-color, 45%) !default;
-$ok-color:                  #3c763d !default;
-$ok-background-color:        lighten($ok-color, 45%) !default;
-$warn-background-color:     #F6ECB7 !default;
-$warn-color:                darken($warn-background-color, 35%) !default;
-$error-background-color:    #f2dede !default;
-$error-color:               darken($error-background-color, 30%) !default;
+//$info-color:                $primary-color  !default;
+//$info-background-color:     lighten($primary-color, 45%) !default;
+//$ok-color:                  #3c763d !default;
+//$ok-background-color:        lighten($ok-color, 45%) !default;
+//$warn-background-color:     #F6ECB7 !default;
+//$warn-color:                darken($warn-background-color, 35%) !default;
+//$error-background-color:    #f2dede !default;
+//$error-color:               darken($error-background-color, 30%) !default;
 $instruction-size:          $default-font-size-small;
-$instruction-color:         #555;
+//$instruction-color:         #555;
 
 /* Sakai Banners */
 // Information (info) banner
-$infoBanner-bordercolor: #5c9bd1;
-$infoBanner-bgcolor: #bde5f8;
-$infoBanner-color: $text-color;
+//$infoBanner-bordercolor: #5c9bd1;
+//$infoBanner-bgcolor: #bde5f8;
+//$infoBanner-color: $text-color;
 $infoBanner-icon: ".fa-info-circle";
 
 // Success banner
-$successBanner-bordercolor: #52b387;
-$successBanner-bgcolor: #d9f0e7;
-$successBanner-color: $text-color;
+//$successBanner-bordercolor: #52b387;
+//$successBanner-bgcolor: #d9f0e7;
+//$successBanner-color: $text-color;
 $successBanner-icon: ".fa-check-circle";
 
 // Warning (warn) banner
-$warnBanner-bordercolor: #f1ba1b;
-$warnBanner-bgcolor: #fbeec9;
-$warnBanner-color: $text-color;
+//$warnBanner-bordercolor: #f1ba1b;
+//$warnBanner-bgcolor: #fbeec9;
+//$warnBanner-color: $text-color;
 $warnBanner-icon: ".fa-exclamation-circle";
 
 // Error banner
-$errorBanner-bordercolor: #cf4f16;
-$errorBanner-bgcolor: #f4dcd2;
-$errorBanner-color: $text-color;
+//$errorBanner-bordercolor: #cf4f16;
+//$errorBanner-bgcolor: #f4dcd2;
+//$errorBanner-color: $text-color;
 $errorBanner-icon: ".fa-ban";
 /* end of Sakai Banners */
 
 /* Swapped 'View As' view */
 $swapped-view-enabled: false !default;
-$swapped-view-primary: 		 #bf360c !default;
+//$swapped-view-primary: 		 #bf360c !default;
 
 /* Admin Become User view */
-$become-user-primary: #52b387 !default;
+//$become-user-primary: #52b387 !default;
 
 /* This is the gradient in the header of the page */
-$header-gradient-a: #fafafa !default;
-$header-gradient-b: $header-gradient-a !default;
-$header-gradient-c: $header-gradient-a !default;
-$header-gradient-d: $header-gradient-a !default;
+//$header-gradient-a: #fafafa !default;
+//$header-gradient-b: $header-gradient-a !default;
+//$header-gradient-c: $header-gradient-a !default;
+//$header-gradient-d: $header-gradient-a !default;
 
 /* topNav Main Menu */
 $header-size: 50px !default;
-$topNav-text-color:                         #fff !default; 		// used for links and text in the topNav
-$topNav-alt-color:                     		#9c9c9c !default;	// used for topNav spacers
+//$topNav-text-color:                         #fff !default; 		// used for links and text in the topNav
+//$topNav-alt-color:                     		#9c9c9c !default;	// used for topNav spacers
 
 /* Favorites */
 $sites-nav-menu-item-border-thickness:		1px !default;
 $sites-nav-menu-item-border-radius:         0px !default;
 /* Favorites - item */
-$sites-nav-menu-item-background:            #FFFFFF !default;
+//$sites-nav-menu-item-background:            #FFFFFF !default;
 
-$sites-nav-menu-item-color:                 #4C4C4C !default;
-$sites-nav-menu-item-border-color:          #E5E5E5 !default;
+//$sites-nav-menu-item-color:                 #4C4C4C !default;
+//$sites-nav-menu-item-border-color:          #E5E5E5 !default;
 $sites-nav-menu-item-border-top:            $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-border-color !default;
 $sites-nav-menu-item-border-right:          $sites-nav-menu-item-border-top !default;
 $sites-nav-menu-item-border-bottom:         $sites-nav-menu-item-border-top !default;
 $sites-nav-menu-item-border-left:           $sites-nav-menu-item-border-top !default;
 
 /* Favorites - item hovered */
-$sites-nav-menu-item-hover-background:      #FFFFFF !default;
-$sites-nav-menu-item-hover-color:           #191919 !default;
-$sites-nav-menu-item-hover-border-color:    #7F7F7F !default;
+//$sites-nav-menu-item-hover-background:      #FFFFFF !default;
+//$sites-nav-menu-item-hover-color:           #191919 !default;
+//$sites-nav-menu-item-hover-border-color:    #7F7F7F !default;
 
 $sites-nav-menu-item-hover-border-top:      $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-hover-border-color !default;
 $sites-nav-menu-item-hover-border-right:    $sites-nav-menu-item-hover-border-top !default;
@@ -238,9 +238,9 @@ $sites-nav-menu-item-hover-border-bottom:   $sites-nav-menu-item-hover-border-to
 $sites-nav-menu-item-hover-border-left:     $sites-nav-menu-item-hover-border-top !default;
 
 /* Favorites - item selected */
-$sites-nav-menu-item-selected-background:   $primary-color !default;
-$sites-nav-menu-item-selected-color:        #FFFFFF !default;
-$sites-nav-menu-item-selected-border-color: #326B97 !default;
+//$sites-nav-menu-item-selected-background:   $primary-color !default;
+//$sites-nav-menu-item-selected-color:        #FFFFFF !default;
+//$sites-nav-menu-item-selected-border-color: #326B97 !default;
 $sites-nav-menu-item-selected-font-weight:  600 !default
 $sites-nav-menu-item-selected-border-top:   $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-selected-border-color !default;
 $sites-nav-menu-item-selected-border-right: $sites-nav-menu-item-selected-border-top !default;
@@ -248,39 +248,39 @@ $sites-nav-menu-item-selected-border-bottom:$sites-nav-menu-item-selected-border
 $sites-nav-menu-item-selected-border-left:  $sites-nav-menu-item-selected-border-top !default;
 
 /* Favorites - item selected and hovered */
-$sites-nav-menu-item-selected-hover-background:   lighten($sites-nav-menu-item-selected-background, 5%) !default;
-$sites-nav-menu-item-selected-hover-color:        #FFFFFF !default;
+//$sites-nav-menu-item-selected-hover-background:   lighten($sites-nav-menu-item-selected-background, 5%) !default;
+//$sites-nav-menu-item-selected-hover-color:        #FFFFFF !default;
 $sites-nav-menu-item-selected-hover-border-color: $sites-nav-menu-item-selected-border-color !default;
 $sites-nav-menu-item-selected-hover-border-top:   $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-selected-hover-border-color !default;
 $sites-nav-menu-item-selected-hover-border-right: $sites-nav-menu-item-selected-hover-border-top !default;
 $sites-nav-menu-item-selected-hover-border-bottom:$sites-nav-menu-item-selected-hover-border-top !default;
 $sites-nav-menu-item-selected-hover-border-left:  $sites-nav-menu-item-selected-hover-border-top !default;
 /* Favorites - tool submenu */
-$sites-nav-submenu-background:              $sites-nav-menu-item-hover-background !default;
-$sites-nav-submenu-topleft-border-color:    $sites-nav-menu-item-hover-background !default;
-$sites-nav-submenu-border-color:            $sites-nav-menu-item-hover-border-color !default;
+//$sites-nav-submenu-background:              $sites-nav-menu-item-hover-background !default;
+//$sites-nav-submenu-topleft-border-color:    $sites-nav-menu-item-hover-background !default;
+//$sites-nav-submenu-border-color:            $sites-nav-menu-item-hover-border-color !default;
 $sites-nav-submenu-border:                  $sites-nav-menu-item-border-thickness solid $sites-nav-submenu-border-color !default;
 $sites-nav-submenu-top:                     calc( #{$default-font-size} + ( #{$standard-space} * 2) - #{$sites-nav-menu-item-border-thickness}) !default;
 $sites-nav-submenu-padding:                 0 !default;
 $sites-nav-submenu-shadow:                  0 3px 2px rgba( $text-color, 0.35) !default;
 /* Favorites - tool selected submenu */
-$sites-nav-selected-submenu-border-color: $sites-nav-menu-item-selected-hover-border-color !default;
+//$sites-nav-selected-submenu-border-color: $sites-nav-menu-item-selected-hover-border-color !default;
 $sites-nav-selected-submenu-border:       $sites-nav-menu-item-border-thickness solid $sites-nav-submenu-topleft-border-color !default;
 $sites-nav-selected-submenu-topleft-border-color: $sites-nav-menu-item-selected-hover-background !default;
 /* Favorites - tool submenu items */
 $sites-nav-submenu-item-text-size:          13px !default;
 $sites-nav-submenu-item-background:          $sites-nav-menu-item-hover-background !default;
-$sites-nav-submenu-item-color:              #4C4C4C !default;
-$sites-nav-submenu-item-icon-color:         #666666 !default;
-$sites-nav-submenu-item-divider-color:      #E5E5E5 !default;
+//$sites-nav-submenu-item-color:              #4C4C4C !default;
+//$sites-nav-submenu-item-icon-color:         #666666 !default;
+//$sites-nav-submenu-item-divider-color:      #E5E5E5 !default;
 $sites-nav-submenu-item-left-border-color:  transparent !default;
 $sites-nav-submenu-item-left-border:        4px solid $sites-nav-submenu-item-left-border-color !default;
 $sites-nav-submenu-item-padding:            $standard-spacing !default;
 /* Favorites - tool submenu items hovered */
-$sites-nav-submenu-item-hover-background:   #ECECEC !default;
-$sites-nav-submenu-item-hover-color:        #191919 !default;
-$sites-nav-submenu-item-hover-icon-color:   #424242 !default;
-$sites-nav-submenu-item-hover-left-border-color: #7F7F7F !default;
+//$sites-nav-submenu-item-hover-background:   #ECECEC !default;
+//$sites-nav-submenu-item-hover-color:        #191919 !default;
+//$sites-nav-submenu-item-hover-icon-color:   #424242 !default;
+//$sites-nav-submenu-item-hover-left-border-color: #7F7F7F !default;
 
 
 
