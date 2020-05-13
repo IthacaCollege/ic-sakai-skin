@@ -167,9 +167,9 @@ $topNav-text-color:                         $white !default; 		// used for links
 $topNav-alt-color:                     		#9C9C9C !default;	// used for topNav spacers
 
 /* Favorites - item */
-$sites-nav-menu-item-background: hsla(0, 0%, 92%, 1) !default;
+$sites-nav-menu-item-background: $white !default;
 
-$sites-nav-menu-item-color: hsla(0, 0%, 25%, 1) !default;
+$sites-nav-menu-item-color: #9C9C9C !default;
 $sites-nav-menu-item-border-color: $sites-nav-menu-item-background !default;
 $sites-nav-menu-item-border-top:            $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-border-color !default;
 $sites-nav-menu-item-border-right:          $sites-nav-menu-item-border-top !default;
@@ -177,8 +177,8 @@ $sites-nav-menu-item-border-bottom:         $sites-nav-menu-item-border-top !def
 $sites-nav-menu-item-border-left:           $sites-nav-menu-item-border-top !default;
 
 /* Favorites - item hovered */
-$sites-nav-menu-item-hover-background: hsla(0, 0%, 82%, 1) !default;
-$sites-nav-menu-item-hover-color: rgba(0,0,0,1) !default;
+$sites-nav-menu-item-hover-background: $white !default;
+$sites-nav-menu-item-hover-color: #162C41 !default;
 $sites-nav-menu-item-hover-border-color:      $sites-nav-menu-item-hover-background !default;
 
 $sites-nav-menu-item-hover-border-top:      $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-hover-border-color !default;
@@ -280,7 +280,7 @@ $tool-menu-item-background-color: $white !default;
 $tool-menu-item-border-left: none !default;
 $tool-menu-item-hover-text-color:                          #213138 !default;
 $tool-menu-item-hover-icon-color:                          #3A5A79 !default;
-$tool-menu-item-hover-background-color: hsla(0, 0%, 92%, 1) !default;
+$tool-menu-item-hover-background-color: #EEEEEE !default;
 $tool-menu-item-hover-border-left: $tool-menu-item-border-left !default;
 $tool-menu-item-hidden-text-color:                         $tool-menu-item-text-color !default;
 $tool-menu-item-hidden-icon-color:                         $tool-menu-item-icon-color !default;
@@ -382,33 +382,33 @@ $sakai-focus-outline: $focus-outline-width $focus-outline-style $focus-outline-c
 $focus-outline-offset: 2px !default;
 
 .Mrphs-mainHeader .Mrphs-headerLogo {
-  background-color: $primary-color;
+  background-color: $primary-color !important;
 }
 
 .tablesorter-headerRow {
-  background-color: #1169ba;
+  background-color: #1169ba !important;
 }
 
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
-  border-color: $white;
+  border-color: $white !important;
 }
 
 thead > tr > th > div > a[href] {
-  color: $white;
+  color: $white !important;
 }
 
 thead > tr > th > div > a[href]:hover {
-  color: #C3D1D7;
+  color: #C3D1D7 !important;
 }
 
 tr {
   /* Background-color of the odd rows */
   &:nth-child(odd) {
-    background-color: #F3F6F7;
+    background-color: #F3F6F7 !important;
   }
 
   /* Background-color of the even rows */
   &:nth-child(even) {
-    background-color: $white;
+    background-color: $white !important;
   }
 }
