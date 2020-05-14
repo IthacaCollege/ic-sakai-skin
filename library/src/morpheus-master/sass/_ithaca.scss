@@ -400,11 +400,13 @@ thead > tr {
 
 thead > tr > th > div > a[href],
 thead > tr > th .calHeader,
-thead > tr > th {
+thead > tr > th,
+thead > tr > th#worksite > a[href] {
   color: $white !important;
 }
 
-thead > tr > th > div > a[href]:hover {
+thead > tr > th > div > a[href]:hover,
+thead > tr > th#worksite > a[href]:hover {
   color: #C3D1D7 !important;
 }
 
