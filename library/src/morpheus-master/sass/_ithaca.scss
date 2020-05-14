@@ -401,7 +401,7 @@ thead > tr {
 thead > tr > th > div > a[href],
 thead > tr > th .calHeader,
 thead > tr > th,
-thead > tr > th#worksite > a[href] {
+table.currentSites > thead > tr > th#worksite.attach > a[href] {
   color: $white !important;
 }
 
