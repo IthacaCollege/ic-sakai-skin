@@ -45,7 +45,7 @@ $tool-tab-hover-text-color:                               #213138 !default;
 $tool-tab-hover-background-color:                         #F3F6F7 !default;
 $tool-tab-hover-highlight-color:                          #738BA3 !default;
 $tool-tab-active-text-color:                              $primary-color !default;
-$tool-tab-active-background-color:                        $white !default;
+$tool-tab-active-background-color:                        #FFE770 !default;
 $tool-tab-active-highlight-color:                         $primary-color !default;
 
 $tool-nav-link-color: #5F7991 !default;
@@ -324,7 +324,7 @@ $tool-sub-menu-background-color: darken( $tool-menu-background-color, 10% ) !def
 $tool-sub-menu-hover-background-color: $primary-color !default;
 $tool-sub-menu-hover-color: $white !default;
 $tool-sub-menu-current-color: $primary-color !default;
-$tool-sub-menu-current-background-color: $background-color !default;
+$tool-sub-menu-current-background-color: #FFE770 !default;
 $tool-sub-menu-current-hover-color: $tool-menu-color !default;
 $tool-sub-menu-current-hover-background-color: $background-color !default;
 
@@ -472,11 +472,6 @@ nav.#toolMenu > ul > li.is-current > a.Mrphs-toolsNav__menuitem--link,
   border-left: 4px solid #1A57BF !important;
 }
 
-.navIntraTool > li span.current::before {
-  background: #FFBB00 !important;
-
-}
-
 table.forumHeader {
   border: 1px solid #FFBB00 !important;
 }
@@ -485,11 +480,13 @@ table.topicBloc.topicBlocLone > tbody > tr {
   background-color: #FFE770 !important;
 }
 
-table.topicBloc.topicBlockLone {
-  border-left-color: #FFBB00 !important;
-}
-
+table.topicBloc.topicBlockLone,
 .messagesFlat tbody > tr > td div.hierItemBlock,
 .messagesThreaded tbody > tr > td div.hierItemBlock {
   border-left-color: #FFBB00 !important;
 }
+
+nav#toolMenu > ul > li.iscurrent > a.Mrphs-toolsNav__menuitem--link {
+  border-left: 4px solid $primary-color !important;
+}
+
