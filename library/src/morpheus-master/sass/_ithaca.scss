@@ -486,5 +486,10 @@ table.topicBloc.topicBlocLone > tbody > tr {
 }
 
 table.topicBloc.topicBlockLone {
-  border-left-color: #FFBB00;
+  border-left-color: #FFBB00 !important;
+}
+
+.messagesFlat tbody > tr > td div.hierItemBlock,
+.messagesThreaded tbody > tr > td div.hierItemBlock {
+  border-left-color: #FFBB00 !important;
 }
