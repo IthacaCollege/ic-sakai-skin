@@ -399,7 +399,8 @@ thead > tr {
 }
 
 thead > tr > th > div > a[href],
-thead > tr > th .calHeader {
+thead > tr > th .calHeader,
+thead > tr > th {
   color: $white !important;
 }
 
@@ -455,7 +456,8 @@ tr {
   background: #F3F6F7;
 }
 
-#linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__favbtn {
+#linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown,
+#linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__favbtn {
   border-top: 1px solid #F3F6F7;
   border-right: 1px solid #F3F6F7;
   border-bottom: 1px solid #F3F6F7;
@@ -479,4 +481,8 @@ tr {
 subSites ul li .Mrphs-toolsNav__menuitem--link:hover:before,
 #subSites ul li .Mrphs-toolsNav__menuitem--link:focus:before {
   border-left: 4px solid #1A57BF;
+}
+
+.navIntraTool li span.current::before {
+  border-top: 4px solid #FFBB00;
 }
