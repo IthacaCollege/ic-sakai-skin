@@ -411,14 +411,16 @@ table.currentSites > thead > tr > th#worksite.attach > a[href]:hover {
   color: #C3D1D7 !important;
 }
 
-tr {
+tbody > tr {
   /* Background-color of the odd rows */
-  &:nth-child(odd) {
-    background-color: #F3F6F7;
+  &:nth-child(odd),
+  &:nth-child(2n+1) {
+    background-color: #F3F6F7 !important;
   }
 
   /* Background-color of the even rows */
-  &:nth-child(even) {
+  &:nth-child(even),
+  &:nth-child(2n) {
     background-color: $white !important;
   }
 }
