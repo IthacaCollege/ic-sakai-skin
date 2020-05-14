@@ -389,11 +389,17 @@ thead > tr {
   background-color: #1169ba !important;
 }
 
-.table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
   border-color: $white !important;
 }
 
-thead > tr > th > div > a[href], thead > tr > th .calHeader {
+thead > tr > th > div > a[href],
+thead > tr > th .calHeader {
   color: $white !important;
 }
 
@@ -417,4 +423,60 @@ tr {
   color: $primary-color !important;
   background-color: rgba(255, 187, 0, 0.2);
   border: 1px solid rgba(255, 187, 0, 0.2);
+}
+
+#toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link,
+#subSites ul li.is-current .Mrphs-toolsNav__menuitem--link {
+  color: #1A57BF;
+  background: #FFF5D9;
+}
+
+#toolMenu ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon,
+#subSites ul li.is-current .Mrphs-toolsNav__menuitem--link .Mrphs-toolsNav__menuitem--icon {
+  color: #3A5A79;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected {
+  background: #FFF5D9;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .link-container,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .Mrphs-sitesNav__dropdown,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .Mrphs-sitesNav__favbtn {
+  background: #FFF5D9;
+  border-top: 1px solid #FFF5D9;
+  border-right: 1px solid #FFF5D9;
+  border-bottom: 1px solid #FFF5D9;
+  border-left: 1px solid #FFF5D9;
+  color: #1A57BF;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem {
+  background: #F3F6F7;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown, #linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__favbtn {
+  border-top: 1px solid #F3F6F7;
+  border-right: 1px solid #F3F6F7;
+  border-bottom: 1px solid #F3F6F7;
+  border-left: 1px solid #F3F6F7;
+  background: #F3F6F7;
+  text-align: center;
+  text-decoration: none;
+  color: #3A5A79;
+}
+
+#toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover,
+#toolMenu ul li .Mrphs-toolsNav__menuitem--link:focus,
+#subSites ul li .Mrphs-toolsNav__menuitem--link:hover,
+#subSites ul li .Mrphs-toolsNav__menuitem--link:focus {
+  color: #1A57BF;
+  background: #F3F6F7;
+}
+
+#toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover:before,
+#toolMenu ul li .Mrphs-toolsNav__menuitem--link:focus:before,
+subSites ul li .Mrphs-toolsNav__menuitem--link:hover:before,
+#subSites ul li .Mrphs-toolsNav__menuitem--link:focus:before {
+  border-left: 4px solid #1A57BF;
 }
