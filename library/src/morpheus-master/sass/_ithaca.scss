@@ -167,7 +167,7 @@ $topNav-text-color:                         $white !default; 		// used for links
 $topNav-alt-color:                     		#9C9C9C !default;	// used for topNav spacers
 
 /* Favorites - item */
-$sites-nav-menu-item-background: $white !default;
+$sites-nav-menu-item-background: #FFE770 !default;
 
 $sites-nav-menu-item-color: #9C9C9C !default;
 $sites-nav-menu-item-border-color: $sites-nav-menu-item-background !default;
@@ -399,15 +399,15 @@ thead > tr > th {
   border-color: $white !important;
 }
 
+table.table-striped >thead > tr > th > a[href],
 table > thead > tr > th > div > a[href],
 thead > tr > th .calHeader,
-thead > tr > th,
-table.currentSites > thead > tr > th#worksite.attach > a[href] {
+thead > tr > th {
   color: $white !important;
 }
 
 table > thead > tr > th > div > a[href]:hover,
-table.currentSites > thead > tr > th#worksite.attach > a[href]:hover {
+table.table-striped >thead > tr > th > a[href]:hover {
   color: #C3D1D7 !important;
 }
 
@@ -490,3 +490,6 @@ nav#toolMenu > ul > li.iscurrent > a.Mrphs-toolsNav__menuitem--link {
   border-left: 4px solid $primary-color !important;
 }
 
+.Mrphs-footerApp__presence, .Mrphs-footerApp__portalChat {
+  background-color: $primary-color !important;
+}
