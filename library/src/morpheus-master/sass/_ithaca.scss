@@ -385,7 +385,8 @@ $focus-outline-offset: 2px !default;
   background-color: $primary-color !important;
 }
 
-thead > tr {
+thead > tr,
+thead > tr > th {
   background-color: #1169ba !important;
 }
 
@@ -470,9 +471,18 @@ nav.#toolMenu > ul > li.is-current > a.Mrphs-toolsNav__menuitem--link,
 }
 
 .navIntraTool > li span.current::before {
-  border-top: 4px solid #FFBB00 !important;
+  background: #FFBB00 !important;
+
 }
 
 table.forumHeader {
   border: 1px solid #FFBB00 !important;
+}
+
+table.topicBloc.topicBlocLone > tbody > tr {
+  background-color: #FFE770 !important;
+}
+
+table.topicBloc.topicBlockLone {
+  border-left-color: #FFBB00;
 }
