@@ -393,7 +393,7 @@ thead > tr {
   border-color: $white !important;
 }
 
-thead > tr > th > div > a[href] {
+thead > tr > th > div > a[href], thead > tr > th .calHeader {
   color: $white !important;
 }
 
