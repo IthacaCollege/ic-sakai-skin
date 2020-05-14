@@ -398,14 +398,14 @@ thead > tr {
   border-color: $white !important;
 }
 
-thead > tr > th > div > a[href],
+table > thead > tr > th > div > a[href],
 thead > tr > th .calHeader,
 thead > tr > th,
 table.currentSites > thead > tr > th#worksite.attach > a[href] {
   color: $white !important;
 }
 
-thead > tr > th > div > a[href]:hover,
+table > thead > tr > th > div > a[href]:hover,
 table.currentSites > thead > tr > th#worksite.attach > a[href]:hover {
   color: #C3D1D7 !important;
 }
