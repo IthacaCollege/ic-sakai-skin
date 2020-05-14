@@ -422,7 +422,8 @@ tr {
   }
 }
 
-.Mrphs-sitesNav__menuitem .is-selected > a.link-container {
+ul.#topnav.Mrphs-sitesNav__menu > li.Mrphs-sitesNav__menuitem.is-selected > a.link-container,
+nav.#toolMenu > ul > li.Mrphs-toolsNav__menuitem.is-current a.Mrphs-toolsNav__menuitem--link {
   color: $primary-color !important;
   background-color: rgba(255, 187, 0, 0.2);
   border: 1px solid rgba(255, 187, 0, 0.2);
@@ -470,17 +471,17 @@ tr {
   color: #3A5A79;
 }
 
-#toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover,
-#toolMenu ul li .Mrphs-toolsNav__menuitem--link:focus,
-#subSites ul li .Mrphs-toolsNav__menuitem--link:hover,
-#subSites ul li .Mrphs-toolsNav__menuitem--link:focus {
+#toolMenu > ul > li .Mrphs-toolsNav__menuitem--link:hover,
+#toolMenu > ul > li .Mrphs-toolsNav__menuitem--link:focus,
+#subSites > ul > li .Mrphs-toolsNav__menuitem--link:hover,
+#subSites > ul > li .Mrphs-toolsNav__menuitem--link:focus {
   color: #1A57BF;
   background: #F3F6F7;
 }
 
-#toolMenu ul li .Mrphs-toolsNav__menuitem--link:hover:before,
-#toolMenu ul li .Mrphs-toolsNav__menuitem--link:focus:before,
-subSites ul li .Mrphs-toolsNav__menuitem--link:hover:before,
+#toolMenu > ul > li .Mrphs-toolsNav__menuitem--link:hover:before,
+#toolMenu > ul > li .Mrphs-toolsNav__menuitem--link:focus:before,
+#subSites > ul > li .Mrphs-toolsNav__menuitem--link:hover:before,
 #subSites ul li .Mrphs-toolsNav__menuitem--link:focus:before {
   border-left: 4px solid #1A57BF;
 }
