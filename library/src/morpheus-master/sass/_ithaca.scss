@@ -443,7 +443,15 @@ nav.#toolMenu > ul > li.is-current > a.Mrphs-toolsNav__menuitem--link,
 }
 
 #linkNav ul > li.Mrphs-sitesNav__menuitem.is-selected {
-  background: #FFF5D9 !important;
+  background: rgba(255, 187, 0, 0.2) !important;
+}
+
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .link-container,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .Mrphs-sitesNav__dropdown,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .Mrphs-sitesNav__favbtn {
+  background: rgba(255, 187, 0, 0.2) !important;
+  border: 1px solid rgba(255, 187, 0, 0.2) !important;
+  color: $primary-color !important;
 }
 
 #linkNav ul > li.Mrphs-sitesNav__menuitem {
