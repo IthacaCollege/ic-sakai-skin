@@ -45,7 +45,7 @@ $tool-tab-hover-text-color:                               #213138 !default;
 $tool-tab-hover-background-color:                         #F3F6F7 !default;
 $tool-tab-hover-highlight-color:                          #738BA3 !default;
 $tool-tab-active-text-color:                              $primary-color !default;
-$tool-tab-active-background-color:                        #FFE770 !default;
+$tool-tab-active-background-color:                        rgba(255, 187, 0, 0.2) !default;
 $tool-tab-active-highlight-color:                         $primary-color !default;
 
 $tool-nav-link-color: #5F7991 !default;
@@ -324,7 +324,7 @@ $tool-sub-menu-background-color: darken( $tool-menu-background-color, 10% ) !def
 $tool-sub-menu-hover-background-color: $primary-color !default;
 $tool-sub-menu-hover-color: $white !default;
 $tool-sub-menu-current-color: $primary-color !default;
-$tool-sub-menu-current-background-color: #FFE770 !default;
+$tool-sub-menu-current-background-color: rgba(255, 187, 0, 0.2) !default;
 $tool-sub-menu-current-hover-color: $tool-menu-color !default;
 $tool-sub-menu-current-hover-background-color: $background-color !default;
 
