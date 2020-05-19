@@ -187,8 +187,8 @@ $sites-nav-menu-item-hover-border-bottom:   $sites-nav-menu-item-hover-border-to
 $sites-nav-menu-item-hover-border-left:     $sites-nav-menu-item-hover-border-top !default;
 
 /* Favorites - item selected */
-$sites-nav-menu-item-selected-background: $primary-color !default;
-$sites-nav-menu-item-selected-color: $white !default;
+$sites-nav-menu-item-selected-background: rgba(255, 187, 0, 0.2)  !default;
+$sites-nav-menu-item-selected-color: $primary-color !default;
 $sites-nav-menu-item-selected-border-color: $sites-nav-menu-item-selected-background !default;
 $sites-nav-menu-item-selected-font-weight:  600 !default
 $sites-nav-menu-item-selected-border-top:   $sites-nav-menu-item-border-thickness solid $sites-nav-menu-item-selected-border-color !default;
@@ -292,8 +292,8 @@ $tool-menu-item-hidden-hover-background-color:             $tool-menu-item-hover
 $tool-menu-item-hidden-hover-border-left:                  $tool-menu-item-hover-border-left !default;
 $tool-menu-item-selected-text-color: $primary-color !default;
 $tool-menu-item-selected-icon-color: $primary-color !default;
-$tool-menu-item-selected-background-color: $white !default;
-$tool-menu-item-selected-border-left: $tool-menu-item-border-left !default;
+$tool-menu-item-selected-background-color: rgba(255, 187, 0, 0.2) !default;
+$tool-menu-item-selected-border-left: $primary-color !default;
 $tool-menu-item-selected-hover-text-color: $primary-color !default;
 $tool-menu-item-selected-hover-icon-color: $primary-color !default;
 $tool-menu-item-selected-hover-background-color: $white !default;
@@ -425,49 +425,12 @@ tbody > tr {
   }
 }
 
-#toolMenu > ul > li.is-current > .Mrphs-toolsNav__menuitem--link > .Mrphs-toolsNav__menuitem--icon,
-#subSites > ul > li.is-current > .Mrphs-toolsNav__menuitem--link > .Mrphs-toolsNav__menuitem--icon {
-  color: #3A5A79 !important;
-}
-
-#linkNav ul > li.Mrphs-sitesNav__menuitem.is-selected {
-  background: rgba(255, 187, 0, 0.2) !important;
-}
-
-#linkNav ul > li.Mrphs-sitesNav__menuitem {
-  background: #F3F6F7;
-}
-
-#linkNav ul > li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown,
-#linkNav ul > li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__favbtn {
-  border: 1px solid #F3F6F7 !important;
-  background: #F3F6F7 !important;
-  text-align: center;
-  text-decoration: none;
-  color: #3A5A79 !important;
-}
-
 #toolMenu ul > li .Mrphs-toolsNav__menuitem--link:hover,
 #toolMenu ul > li .Mrphs-toolsNav__menuitem--link:focus,
 #subSites ul > li .Mrphs-toolsNav__menuitem--link:hover,
 #subSites ul > li .Mrphs-toolsNav__menuitem--link:focus {
   color: #1A57BF !important;
   background: #F3F6F7 !important;
-}
-
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .link-container {
-  background-color: rgba(255, 187, 0, 0.2) !important;
-  border: 1px solid rgba(255, 187, 0, 0.2) !important;
-}
-
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .Mrphs-sitesNav__dropdown {
-  background-color: rgba(255, 187, 0, 0.2) !important;
-  border: 1px solid rgba(255, 187, 0, 0.2) !important;
-
-}
-#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected .Mrphs-sitesNav__favbtn {
-  background-color: rgba(255, 187, 0, 0.2) !important;
-  border: 1px solid rgba(255, 187, 0, 0.2) !important;
 }
 
 #toolMenu ul > li .Mrphs-toolsNav__menuitem--link:hover:before,
